@@ -9,10 +9,8 @@ import java.awt.Color;
 import java.awt.Container;
 
 public class Welcome extends JFrame  implements ActionListener {
-/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+
+    private static final long serialVersionUID = 1L;
     private JLabel textJLable1;
     private JLabel pictureJLablel;
     JButton btna ;
@@ -39,7 +37,7 @@ public class Welcome extends JFrame  implements ActionListener {
        pictureJLablel.setHorizontalAlignment(JLabel.CENTER);
        contentPane.add(pictureJLablel);
        
-       btna=new JButton("½øÈë");
+       btna=new JButton("Â½Ã¸ÃˆÃ«");
 	   btna.setBounds(280, 380, 60, 25);
 	   contentPane.add(btna);
 	   btna.addActionListener(this);
